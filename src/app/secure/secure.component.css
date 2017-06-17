@@ -1,0 +1,11 @@
+.grid.maincontainer {
+    width: 100%;
+    display: flex;
+}
+.grid.leftcontainer {
+    margin: 0px;
+}
+.grid.rightcontainer {
+    width: 84%;
+    margin: 0px;
+}

@@ -1,0 +1,23 @@
+.example-container {
+  width: 500px;
+}
+
+.ui-flatButton{
+  padding: 4px 21px;
+  height: 27px !important;
+  color: #fff;
+  border: none;
+  vertical-align: text-top;
+  background-color: #16a085;
+}
+.ui-nonFlatButton{
+  text-align: center;
+  cursor: pointer;
+  width: 8%;
+  color: #000;
+}
+.ui-saveBtnIcon{
+  height:17px;
+  width:20px;
+  margin-bottom: -3px;
+}

@@ -1,0 +1,4 @@
+<div class="ui {{type}} checkbox" [ngClass]="{'checked': checked}" (click)="toggleCheck($event)">
+      <input type="checkbox" [attr.checked]="checked? 'checked' : null" [attr.disabled]="disabled ? 'disabled' : null">
+      <label>{{ label }}</label>
+</div>

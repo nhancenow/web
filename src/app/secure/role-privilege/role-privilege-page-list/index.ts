@@ -1,0 +1,1 @@
+export * from './role-privilege-page-list.component';

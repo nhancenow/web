@@ -1,0 +1,15 @@
+/* .commonPageForLoginLogoSection{
+	background-image: url(../assets/image/login_background.jpg);
+    position: fixed;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+img.loginLogostyle {
+    width: 20%;
+    margin-top: 2%;
+}
+.loginLogoSection {
+    margin-bottom: 13%;
+    width: 75%;
+}

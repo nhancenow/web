@@ -1,0 +1,11 @@
+   <div *ngIf="type == 'select-box'">
+      <span><ui-selectbox [options] = "dropdownValues"></ui-selectbox></span>
+    </div>
+   <div *ngIf="type == 'input-box'">
+     <span><ui-input-box [placeholder]="'search some text'" (keyup)="onKey($event)" (focusout)="focusOutFunction($event)"></ui-input-box></span>
+     <span><ui-icon [type]="'search-icon'" (click)="onClickSerchIcon($event)"></ui-icon> </span>
+   </div>
+   <div *ngIf="type == 'date-picker'">
+     <span><ui-date-picker></ui-date-picker></span>
+   </div>
+   <!-- <img [attr.src]="searchIcon" class="ui-serachIcon" (click)="onClickSerchIcon($event)"/> -->

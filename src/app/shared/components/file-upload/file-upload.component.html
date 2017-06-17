@@ -1,0 +1,28 @@
+<div class="ui-upload-section">
+
+					<button class="ui-upload-button" (click)="onButtonClick($event,fileInput)">
+	 				 	<span class="ui-btn-text">Attach file <i class="fa fa-paperclip" aria-hidden="true"></i></span>
+					</button>
+					<p class="error-message">{{errorMessage}}</p>
+					<div *ngIf ="fileList()">
+						<div class="ui-fileupload-files" *ngFor = "let file of files; let i = index">					
+	 						 	<div class="ui-fileupload-row">
+
+	 						 		<div *ngIf="isImage(file)">
+	 						 			<img class="ui-tinyimage" src="{{imageSrc}}">
+	 						 		</div>
+
+	 						 		<div *ngIf="!isImage(file)">
+	 						 			<i class="fa {{fileIcon}} fa-3x icon"></i>
+	 						 		</div>
+	 						 		
+	 						 		<div class="ui-fileupload-content">
+	 						 			{{fileName}} -({{fileSize}})<span class="ui-delete-icon" (click)="onRemove()">Remove</span>
+	 						 		</div>
+
+	 						 	</div>
+						</div>
+					</div>
+					<input #fileInput [multiple]="multiple" type="file" (change)="onFileChange($event)" style="display:none">
+</div>
+				

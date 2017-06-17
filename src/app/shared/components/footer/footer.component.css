@@ -1,0 +1,49 @@
+.ui.footer.form-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.ui.footer.form-page[_ngcontent-c3] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.ui.vertical.segment:last-child {
+    border-bottom: none;
+}
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    background: #1B1C1D;
+    color: rgba(255,255,255,.9);
+}
+.ui.inverted.segment {
+    border: none;
+    box-shadow: none;
+}
+.ui.vertical.segment {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    /* background: none; */
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.ui.segment:last-child {
+    margin-bottom: 0;
+}
+.ui.segment:first-child {
+    margin-top: 0;
+}
+.ui.segment, .ui.segments .segment {
+    font-size: 1rem;
+}
+.ui.segment {
+    position: relative;
+    background: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    margin: 1rem 0;
+    padding: 1em;
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);
+}

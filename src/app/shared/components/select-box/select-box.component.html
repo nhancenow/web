@@ -1,0 +1,6 @@
+<div class="ui-selectbox fa fa-caret-down">
+	<select (change)="onChange($event)">
+		<option *ngIf="defaultOption" class="ui-selectbox-option" value="">Select</option>
+		<option *ngFor="let option of options" value="{{option}}">{{option}}</option>
+	</select>
+</div>

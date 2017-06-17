@@ -1,0 +1,43 @@
+.create {
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  background: url(/assets/icons/create.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.save{
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 17px;
+  width: 20px;
+  background: url(/assets/icons/save.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  float: left;
+}
+.backArrow{
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 17px;
+  width: 20px;
+  background: url(/assets/icons/backArrow.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  float: left;
+}
+.search-icon{
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 17px;
+  width: 20px;
+  background: url(/assets/icons/search-icon.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  float: left;
+}

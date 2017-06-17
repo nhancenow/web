@@ -1,0 +1,8 @@
+<div class="ui menu vertical" >
+    <li *ngFor="let menuitem of item" >
+    	<a class="item" routerLink="{{menuitem.action}}" routerLinkActive="active">
+    	    <i class="{{menuitem.icon}}"></i>
+	        <span>{{menuitem.label}}</span>
+    	</a>
+    </li>
+</div>

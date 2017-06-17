@@ -1,0 +1,1 @@
+export * from './page-first-view-with-list.module';

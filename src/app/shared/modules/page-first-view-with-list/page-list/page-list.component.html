@@ -1,0 +1,12 @@
+<div class="pageActionBar">
+	<ui-page-title [title]="pageSettings.title"></ui-page-title>
+	<ui-icon [type]="createIcon"></ui-icon>
+</div>
+
+<ng-content select=".page-summary-section"></ng-content>
+
+<ng-content select=".page-detail-section"></ng-content>
+
+<div class="pageListContents">
+	<ng2-smart-table [settings]="pageSettings.viewSettings" [source]="dataSource"></ng2-smart-table>
+</div>

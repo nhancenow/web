@@ -1,0 +1,11 @@
+<ui-header></ui-header>
+	<div class="ui grid maincontainer row">
+		<div class="ui grid leftcontainer">	
+			<ui-left-sidebar [item]="menu"></ui-left-sidebar>
+		</div>
+		
+		<div class="ui grid rightcontainer row">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+<ui-footer></ui-footer>

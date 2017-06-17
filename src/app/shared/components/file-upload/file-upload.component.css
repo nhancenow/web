@@ -1,0 +1,58 @@
+.ui-upload-button {
+	cursor: pointer;
+	height: auto;
+	width: auto;
+	border: none;
+	padding: .5em 1.2em .5em;
+	border-radius: .25rem;
+	font-weight: 100;
+}
+
+.ui-fileupload-files {
+	/* display: table; */
+	
+}
+
+.ui-fileupload-row {
+	display: table-row;
+}
+
+.ui-fileupload-row>div {
+	display: table-cell;
+	padding: .5em .5em;
+	vertical-align: middle;
+}
+
+.ui-fileupload-content {
+	padding: 1em;
+	position: relative;
+	transition: border-color .3s;
+}
+
+.ui-tinyimage {
+	width: 80px;
+	height: auto;
+	vertical-align: middle
+}
+
+.ui-delete-icon {
+	padding: 1em;
+	cursor: pointer;
+}
+
+.icon {
+	opacity: 1;
+	height: 1em;
+	color: #333333;
+}
+
+.span.ui-btn-text {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.error-message {
+	font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color: orangered;
+	font-size: small;
+}
